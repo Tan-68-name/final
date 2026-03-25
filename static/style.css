@@ -36,7 +36,9 @@ nav a {
 /* HERO */
 .hero {
   height: 100vh;
+
   background: url('/static/bg.jpg') center/cover no-repeat;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,4 +127,15 @@ button {
 .btn {
   margin-top: 20px;      /* 👈 pushes button down */
   display: inline-block;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);  /* dark layer */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.overlay {
+  backdrop-filter: blur(5px);
 }
