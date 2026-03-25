@@ -139,3 +139,11 @@ button {
 .overlay {
   backdrop-filter: blur(5px);
 }
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffc107;
+  margin: 15px 0;
+  letter-spacing: 2px;
+}
