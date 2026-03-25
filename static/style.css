@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #0a192f;
+  color: white;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  position: absolute;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url('/static/bg.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 48px;
+}
+
+/* BUTTON */
+.btn {
+  background: #ffc107;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: black;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px;
+  text-align: center;
+}
+
+/* SKILLS */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #112240;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* FORM */
+input, textarea {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ffc107;
+  border: none;
+}
