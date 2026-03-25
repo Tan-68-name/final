@@ -117,3 +117,12 @@ button {
   max-width: 500px;
   text-align: left;
 }
+
+.overlay h1 {
+  margin-bottom: 30px;   /* 👈 adds space below heading */
+}
+
+.btn {
+  margin-top: 20px;      /* 👈 pushes button down */
+  display: inline-block;
+}
