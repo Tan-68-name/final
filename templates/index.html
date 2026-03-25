@@ -44,14 +44,25 @@
 <!-- ABOUT -->
 <section id="about">
   <h2>About Me</h2>
-  <p>
-    I am a dedicated web developer with a strong interest in creating efficient 
-    and scalable applications. Currently pursuing BCA at Kristu Jayanti College, 
-    Bangalore, I focus on learning modern technologies and building real-world projects.
+
+  <div class="about-container">
     
-    I have completed certificate courses in MongoDB, HTML, CSS, JavaScript, 
-    Node.js, and GitHub, strengthening my practical development skills.
-  </p>
+    <!-- Profile Image -->
+    <img src="{{ url_for('static', filename='profile.jpg') }}" class="about-img">
+
+    <!-- About Text -->
+    <div class="about-text">
+      <p>
+        I am a dedicated web developer with a strong interest in creating efficient 
+        and scalable applications. Currently pursuing BCA at Kristu Jayanti College, 
+        Bangalore, I focus on learning modern technologies and building real-world projects.
+        
+        I have completed certificate courses in MongoDB, HTML, CSS, JavaScript, Node.js, 
+        and GitHub, strengthening my practical development skills.
+      </p>
+    </div>
+
+  </div>
 </section>
 
 <!-- CONTACT -->
